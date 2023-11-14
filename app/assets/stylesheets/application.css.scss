@@ -29,22 +29,13 @@ h1, h2, h3 {
   border: none;
 }
 
-.navbar-default .navbar-brand{
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-brand{
   color: white;
-}
-
-.navbar-default .navbar-nav > li > a {
-  color: white;
-}
-.navbar-default .navbar-brand:hover{
-  color: white;
+  &:hover{
+     color: white;
   opacity: 0.55;
+  }
 }
-.navbar-default .navbar-nav > li > a:hover {
-  color:white;
-  opacity: 0.55;
-}
-
 .home-page{
   color: white;
   margin-top: -20px; 
