@@ -15,16 +15,19 @@
  */
  @import 'bootstrap-sprockets';
  @import 'bootstrap';
- 
+ @import "font-awesome";
+ //Topography Styles
 h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
 }
+//Background gradient
 .navbar, .home-page {
   //gradient provided by @ighosh at UIgradients.com
   background: #4568DC;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #B06AB3, #4568DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+//nav-styles
 .navbar{
   border: none;
 }
@@ -36,6 +39,7 @@ h1, h2, h3 {
   opacity: 0.55;
   }
 }
+//Home page styles
 .home-page{
   color: white;
   margin-top: -20px; 
