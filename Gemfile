@@ -52,6 +52,8 @@ gem 'bootstrap-sass', '3.3.7'
 #Use Font Awesome for adding icon
 gem "font-awesome-sass", "~> 6.4.2"
 
+gem 'jquery-rails'
+
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
