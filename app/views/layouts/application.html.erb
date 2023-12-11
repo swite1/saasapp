@@ -33,6 +33,11 @@
         </div><!-- /.navbar-collapse -->
       </div>
     </nav>
-      <%= yield %>
+    <div class = "container"
+      <%= form_for @contact do |f| %>
+        <% =content_tag :div, msg, class: "alert alert-%{type}" %>
+      <% end %>
+    </div>
+    <%= yield %>
   </body>
 </html>
